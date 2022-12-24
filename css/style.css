@@ -1,0 +1,159 @@
+body {
+    height: 2000px;
+    padding-top:56px;
+}
+
+.jumbotron1 {
+    padding: 2rem 1rem;
+    background-color: #F1FAEE;
+}
+
+.jumbotron2 {
+    padding: 2rem 1rem;
+    background-color: #DFF2EA;
+}
+
+.jumbotron3 {
+    padding: 2rem 1rem;
+    background-color: #F1FAEE;
+}
+
+.jumbotron4 {
+    padding: 2rem 1rem;
+    background-color: #DFF2EA;
+}
+
+.jumbotron5 {
+    padding: 2rem 1rem;
+    background-color: #F1FAEE;
+}
+
+.jumbotron6 {
+    padding: 2rem 1rem;
+    background-color: #DFF2EA;
+}
+
+.jumbotron7 {
+    padding: 2rem 1rem;
+    background-color: #F1FAEE;
+}
+
+.jumbotron8 {
+    padding: 2rem 1rem;
+    background-color: #F1FAEE;
+}
+
+.jumbotron9 {
+    padding: 2rem 1rem;
+    background-color: #F1FAEE;
+}
+
+.container1 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container4{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="email"],
+input[type="password"] {
+    background: #E5E9F2;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border: none;
+    background: #E5E9F2;
+}
+
+input[type="email1"],
+input[type="password1"],
+input[type="text"] {
+    background: #E5E9F2;
+}
+
+input[type="email1"]:focus,
+input[type="password1"]:focus,
+input[type="text"]:focus {
+    outline: none;
+    border: none;
+    background: #E5E9F2;
+}
+
+.img-google {
+    height: 20px;
+    width: 20px;
+}
+
+.jumbotron10 {
+    padding: 2rem 1 rem;
+    background-color: #F1FAEE;
+}
+.jumbotron12{
+    padding: 2rem 1 rem;
+    background-color: #F1FAEE;
+}
+.jumbotron13{
+    padding: 2rem 1 rem;
+    background-color: #DFF2EA;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+.daftar{
+    text-align: center;
+    color: #DFF2EA;
+}
+.daftar:hover{
+    color: #DFF2EA;
+}
+.log{
+    text-align: center;
+    color: white;
+}
+.log:hover{
+    color: white;
+}
+.wrapper{
+    max-height: 220px;
+    border: 0px  solid #ddd;
+    display: flex;
+    overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapper .item{
+    min-width: 200px;
+    height: 210px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #DFF2EA;
+    margin-right: 5px;
+    text-shadow: black;
+}
