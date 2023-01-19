@@ -1,0 +1,15 @@
+The program is a simple example of a bus ticket booking system, implemented in Java. It has the following main components:
+
+The Passenger class, which represents a passenger and contains their personal information, such as name, age, phone number, and ticket number.
+The TicketBooking class, which handles the booking of tickets and contains a list of Passenger objects.
+The BinarySearchTree class, which is used to search for a passenger by name.
+The Main class, which is the entry point of the program and contains the main method that runs the program.
+The program allows the user to book a ticket, search for a passenger by name, and make a payment for the booking. It uses a Scanner to take input from the user and presents a menu of options for the user to choose from.
+
+When the user chooses to book a ticket, the program prompts the user to enter the passenger's personal information, creates a new Passenger object, adds it to the list of passengers and binary search tree, and makes a payment.
+
+When the user chooses to search for a passenger, the program prompts the user to enter the passenger's name, searches for the passenger in the binary search tree, and if found, prints the passenger's personal information and makes a payment.
+
+when the user chooses to make a payment, it will execute the makePayment method that has been implemented in the TicketBooking class, it will print a message indicating that the payment for the passenger's ticket was successful.
+
+The binary search tree is more efficient for searching for a passenger by name than looping through a list, as it has a time complexity of O(log n), even if you have a large number of items in your list.
